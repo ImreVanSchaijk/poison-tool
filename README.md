@@ -1,3 +1,9 @@
+## Alt1 install
+
+```sh
+alt1://addapp/https://rs.thtguytho.nl/alt1/poison-tool/config.json
+```
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

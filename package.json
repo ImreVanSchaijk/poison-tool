@@ -7,7 +7,7 @@
     "@fortawesome/fontawesome-svg-core": "^1.2.21",
     "@fortawesome/free-solid-svg-icons": "^5.10.1",
     "@fortawesome/react-fontawesome": "^0.1.4",
-    "alt1-react": "^0.1.8",
+    "alt1-react": "^0.1.10",
     "i18n-react": "^0.7.0",
     "node-sass": "^4.12.0",
     "prop-types": "^15.7.2",
