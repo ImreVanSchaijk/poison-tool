@@ -1,14 +1,27 @@
 import React from 'react';
+
 import './App.scss';
+import 'assets/alt1/nis.css';
 import 'assets/styles.scss';
 
-import { Dummy, ImageFinder, Alt1 } from 'alt1-react';
+import { ImageFinder, Alt1 } from 'alt1-react';
+import { PoisonReader } from 'components';
+
+import { health, healthAnchor } from 'assets';
+
+const region = {
+  image: healthAnchor,
+  x: 150,
+  y: 0,
+  width: 65,
+  height: 19,
+};
 
 function App() {
   return (
-    <Alt1 debug>
-      <ImageFinder src={null} interval={2000}>
-        <Dummy />
+    <Alt1>
+      <ImageFinder src={health} interval={3000} region={region}>
+        <PoisonReader />
       </ImageFinder>
     </Alt1>
   );

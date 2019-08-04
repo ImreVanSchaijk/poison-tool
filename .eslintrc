@@ -3,19 +3,16 @@
     "rules": {
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
       "no-console": ["warn", { "allow": ["warn", "info", "error"] }],
-      "react/no-did-update-set-state": 0
+      "react/no-did-update-set-state": 0,
+      "import/prefer-default-export": 0
     },
     "env": {
       "browser": true
     },
     "settings": {
       "import/resolver": {
-        "alias": {
-          "map": [
-            ["components", "./src/components/"],
-            ["assets", "./src/assets/"],
-            ["config", "./src/config"]
-          ]
+        "babel-module": {
+          "root": ["./src"]
         }
       }
     }

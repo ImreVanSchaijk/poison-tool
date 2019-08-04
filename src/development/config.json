@@ -1,0 +1,18 @@
+{
+  "appName": "Poison Tool",
+  "description": "Automatically determines poison damage during Big Game Hunter encounters.",
+  "appUrl": "/alt1/poison-tool/index.html",
+  "configUrl": "/alt1/poison-tool/config.json",
+  "iconUrl": "/alt1/poison-tool/static/media/none.40369027.png",
+  "defaultWidth": 180,
+  "defaultHeight": 250,
+  "minWidth": 180,
+  "minHeight": 250,
+  "maxWidth": 1200,
+  "maxHeight": 800,
+  "requestHandlers": [ ],
+  "activators": [
+    "regex:(Start encounter|Quick start|Examine) (Bait pad)"
+  ],
+  "permissions": "pixel,overlay"
+}
