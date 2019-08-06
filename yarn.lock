@@ -1651,10 +1651,10 @@ alphanum-sort@^1.0.0:
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
   integrity sha1-l6ERlkmyEa0zaR2fn0hqjsn74KM=
 
-alt1-react@^0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/alt1-react/-/alt1-react-0.1.8.tgz#19516d1ea7a0b20384c66a4dc9cc3eee948331d9"
-  integrity sha512-1TakKwoeQXFAyE58PZU6q7dN+J+9Hix1ba4HvOMoIOH7zPWaxC1um61D0KqN7PxY6sThOgvKT9JDY7i/8mufuQ==
+alt1-react@^0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/alt1-react/-/alt1-react-0.1.10.tgz#f7e36f0cd32625dd096d1e8abca1fc91e72b684d"
+  integrity sha512-pF7AhE7FMZ7UZkhgU6Ko2abj+XcDEnrVlnIWn8ynoqAZpFV2OunwKUq3L40y9Ssui0kCxBBbLbzR2um0i94UOQ==
 
 amdefine@>=0.0.4:
   version "1.0.1"

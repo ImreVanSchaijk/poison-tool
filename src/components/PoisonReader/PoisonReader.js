@@ -45,6 +45,8 @@ export default class PoisonReader extends Component {
         yellow: '?',
       },
     };
+
+    this.resetFrogs = this.resetFrogs.bind(this);
   }
 
   componentDidUpdate() {
@@ -103,6 +105,22 @@ export default class PoisonReader extends Component {
     });
   }
 
+  resetFrogs() {
+    const { poisons } = this.state;
+    this.setState({
+      health: null,
+      validCombination: poisons
+        .join('')
+        .match(new RegExp('^(?!.*([1-3]).*\\1.*\\1.*\\1).*?([1-3]).*\\2', 'g')),
+      damage: {
+        none: '0',
+        blue: '?',
+        red: '?',
+        yellow: '?',
+      },
+    });
+  }
+
   render() {
     const {
       poisons, validCombination, damage,
@@ -136,12 +154,15 @@ export default class PoisonReader extends Component {
             </div>
           ))}
         </div>
-        <h3>Deadliest frog:</h3>
-        <img
-          src={poisonImages[colors[Object.values(damage).indexOf(30000)] || 'none']}
-          alt="deadliest frog"
-          draggable={false}
-        />
+        <div className="container__deadliest">
+          <h3>Deadliest frog:</h3>
+          <img
+            src={poisonImages[colors[Object.values(damage).indexOf(30000)] || 'none']}
+            alt="deadliest frog"
+            draggable={false}
+          />
+        </div>
+        <button className="nisbutton reset" type="button" onClick={this.resetFrogs}>Reset</button>
       </div>
     );
   }

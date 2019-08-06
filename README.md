@@ -7,6 +7,17 @@ Copy this URL into your browser or Alt1's built in browser.
 alt1://addapp/https://rs.thtguytho.nl/alt1/poison-tool/config.json
 ```
 
+## Changelog
+
+### [0.1.1] 06-08-19
+
+ - Added reset button
+ - Changed wrapper styling
+
+### [0.1.0] 04-08-19
+
+#### Initial release
+
 ## Available Scripts
 
 In the project directory, you can run:
