@@ -5,7 +5,7 @@
   "configUrl": "/alt1/poison-tool/config.json",
   "iconUrl": "/alt1/poison-tool/static/media/none.40369027.png",
   "defaultWidth": 180,
-  "defaultHeight": 250,
+  "defaultHeight": 320,
   "minWidth": 180,
   "minHeight": 250,
   "maxWidth": 1200,

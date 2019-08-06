@@ -1,6 +1,6 @@
 {
   "name": "poison-tool",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "homepage": "https://rs.thtguytho.nl/alt1/poison-tool/",
   "dependencies": {
