@@ -9,7 +9,7 @@
     "@fortawesome/react-fontawesome": "^0.1.4",
     "alt1-react": "^0.1.10",
     "i18n-react": "^0.7.0",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "prop-types": "^15.7.2",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
